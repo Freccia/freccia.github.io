@@ -7,9 +7,17 @@
 	</head>
 	<style>
 		#center {text-align: center;}
+		
+    #table_logo { }
+    #debian_logo { width: 95px; }
+		#debian_image { width: 100%; }
+    #arch_logo { width: 95px; }
+		#arch_image { width: 100%; }
+
+    #list { }
 
 		#footer { position:absolute; width: 100%; bottom: 0; right: 0  }
-		#footer_text { font-family:"Courier New"; font-style:italic; text-align:right ; margin-right:5px}
+		#footer_text { font-family:"Courier New"; font-style:italic; text-align:right ; margin-right:5px }
 
 		hr { 
 			display: block;
@@ -22,19 +30,39 @@
 		} 
 
 	</style>
-	<body style="background-color: #2b2b2b;">
+
+	<body style="background-color: #2b2b2b;" link="#C0C0C0" vlink="#808080" alink="#FF0000">
 		<h1 id="center" style="color: #61b87e;">
-        &Oslash;&Dstrok;&Uuml;&AElig;&Yacute;&Ntilde;&Otilde;</br>
-        (freccia.github.io)
+        &Oslash;&Dstrok;&Uuml;&AElig;&Yacute;&Ntilde;&Otilde;
 		</h1>
+    <p id="center" style="color: #ffffff;">
+        (freccia.github.io)
+    </p>
 		</br>
 
-    <img src="resources/archlinux.png" id="archlinux"/> 
+    <center>
+    <table id="table_logo">
+        <td>
+            <div id="arch_logo">
+                <img src="resources/archlinux.png" id="arch_image"/>
+            </div>
+        </td>
+        <td>
+            <div id="debian_logo">
+                <img src="resources/debian.png" id="debian_image"/>
+            </div>
+        </td>
+    </table>
+    </center>
 
-		<div id="2017-08-20"> 
-			<a href="http://freccia.github.io/2017-08-20" id="2017-08-20">
-          Modify openssh on armv7 runnning ArchLinux to log passwords attempts </a>
+    <center>
+		<div id="list"> 
+    		<div id="2017-08-20"> 
+	    		<a href="http://freccia.github.io/2017-08-20" id="2017-08-20">
+              2017-08-20 ::   Modify openssh on armv7 runnning ArchLinux to log passwords attempts </a>
+	     	</div>
 		</div>
+    </center>
 
 		<footer id="footer" >
 			<hr>
